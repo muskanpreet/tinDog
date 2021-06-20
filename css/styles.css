@@ -1,0 +1,184 @@
+
+#title
+{
+    background-color:rgb(238, 139, 139);
+}
+
+.text
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 6%;
+    margin-top: 20%;
+}
+.bye
+{
+    text-align: center;
+    padding-left: 5%;
+}
+.hello
+{
+    padding-bottom: 3%;
+}
+
+ A .headi
+{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(238, 139, 139);
+}
+.tile
+{
+    width:15rem ;
+    transform: rotate(20deg);
+    margin-left: 100px;
+}
+.download-button
+{
+    padding-bottom: 4%;
+    margin-bottom: 50px;
+}
+.download-button1
+{
+    padding-bottom: 4%;
+    margin:35px 5px;
+}
+#features
+{
+    padding: 9% 5% 9% 5%;
+}
+
+.feature-box
+{
+    text-align: center;
+}
+h3
+{
+    font-weight: bold;
+}
+.fas
+{
+    font-size: 90px;
+    color: rgb(241, 125, 125);
+}
+.fas:hover
+{
+    color: rgb(226, 181, 181);
+}
+#testimonials
+{
+    padding:3% 17% 3% 17%;
+    background-color: rgb(238, 139, 139);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.dog
+{
+    width: 200px;
+    padding:4% 2% 3% 4%;
+    border-radius: 100%;
+}
+.dogneed
+{
+    font-weight: 1000;
+   
+}
+#press
+{
+    background-color: rgb(238, 139, 139);
+    text-align: center;
+    padding:2% 1% 3% 1%;
+}
+.press-log
+{
+    width: 17%;
+    margin: 20px;
+}
+#pricing
+{
+    padding: 7% 4%;
+}
+   
+.flip-card {
+	background-color: transparent;
+	width: 300px;
+	height: 240px;
+	border: 1px solid #0a0a0a;
+	perspective: 1000px;
+  }
+  
+  
+  .flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+  }
+  
+ 
+  .flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+  }
+  
+  
+  .flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/* -webkit-backface-visibility: hidden;  */
+	backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+	/* background-color:aliceblue ; */
+	color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+	background-color: rgb(238, 139, 139);
+	color: white;
+	transform: rotateY(180deg);
+  }
+  #cta
+  {
+    background-color: rgb(238, 139, 139);
+    padding:10% 17% 10% 17%;
+    text-align: center;
+  }
+  .cta-heading
+  {
+      font-size: 2.5rem;
+      font-weight: 50;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .social
+  {
+      margin: 1%;
+  }
+  .mrgning
+  {
+      margin: 3%;
+  }
+  #footer
+  {
+    padding: 4%;
+    text-align: center;
+    font-size: 18px;
+  }
+  @media(max-width: 1000px)
+  {
+      .tile{
+          transform: rotate(0);
+        }
+        #title
+        {
+            text-align: center;
+        }
+  }
